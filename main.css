@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container {
+    height: 960px;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 50px 0;
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+}
+
+.container div {
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    position: relative;
+}
+
+.container div:hover {
+    background-color: black;
+}
+
+.new-grid {
+    width: fit-content;
+    padding: 10px 10px;
+    margin: 50px 0;
+    border-radius: 25px;
+    color: whitesmoke;
+    background-color: rgb(68, 132, 250);
+}
