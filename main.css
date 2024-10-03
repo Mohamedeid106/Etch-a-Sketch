@@ -27,8 +27,8 @@ h1 {
 }
 
 .container {
-    height: 960px;
-    width: 960px;
+    height: 440px;
+    width: 440px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -40,8 +40,8 @@ h1 {
 
 .container div {
     border: 1px solid black;
-    height: 60px;
-    width: 60px;
+    height: 27.5px;
+    width: 27.5px;
     position: relative;
 }
 

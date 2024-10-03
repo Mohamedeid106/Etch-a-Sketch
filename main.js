@@ -40,8 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
         
         square_divs = document.querySelectorAll(".container div");
         square_divs.forEach((square_div) => {
-            square_div.style.width = `${960 / n}px`;
-            square_div.style.height = `${960 / n}px`;
+            square_div.style.width = `${440 / n}px`;
+            square_div.style.height = `${440 / n}px`;
         });
 
         square_divs.forEach((div) => {
